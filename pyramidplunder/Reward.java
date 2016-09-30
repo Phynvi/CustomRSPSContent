@@ -41,14 +41,14 @@ public final class Reward
 	enum UrnRewards implements Rewards
 	{
 		IVORY_COMB(new Item(9026, 1), 100),
-		STONE_SEAL(new Item(9042,0), 50),
-		GOLD_SEAL(new Item(9040,0), 15),
-		POTTERY_SCARAB(new Item(9032,0), 75),
-		GOLDEN_SCARAB(new Item(9028,0), 15),
-		POTTERY_STATUETTE(new Item(9036,0), 75),
-		STONE_STATUETTE(new Item(9038,0), 50),
-		GOLDEN_STATUETTE(new Item(9034,0), 15),
-		JEWELLED_GOLDEN_STATUETTE(new Item(20661,0), 3);
+		STONE_SEAL(new Item(9042,1), 50),
+		GOLD_SEAL(new Item(9040,1), 15),
+		POTTERY_SCARAB(new Item(9032,1), 75),
+		GOLDEN_SCARAB(new Item(9028,1), 15),
+		POTTERY_STATUETTE(new Item(9036,1), 75),
+		STONE_STATUETTE(new Item(9038,1), 50),
+		GOLDEN_STATUETTE(new Item(9034,1), 15),
+		JEWELLED_GOLDEN_STATUETTE(new Item(20661,1), 3);
 
 		Item item; 
 		int weight;
@@ -79,14 +79,14 @@ public final class Reward
 	enum ChestRewards implements Rewards
 	{
 		IVORY_COMB(new Item(9026, 1), 100),
-		STONE_SEAL(new Item(9042,0), 50),
-		GOLD_SEAL(new Item(9040,0), 15),
-		POTTERY_SCARAB(new Item(9032,0), 75),
-		GOLDEN_SCARAB(new Item(9028,0), 15),
-		POTTERY_STATUETTE(new Item(9036,0), 75),
-		STONE_STATUETTE(new Item(9038,0), 50),
-		GOLDEN_STATUETTE(new Item(9034,0), 15),
-		JEWELLED_GOLDEN_STATUETTE(new Item(20661,0), 3),
+		STONE_SEAL(new Item(9042,1), 50),
+		GOLD_SEAL(new Item(9040,1), 15),
+		POTTERY_SCARAB(new Item(9032,1), 75),
+		GOLDEN_SCARAB(new Item(9028,1), 15),
+		POTTERY_STATUETTE(new Item(9036,1), 75),
+		STONE_STATUETTE(new Item(9038,1), 50),
+		GOLDEN_STATUETTE(new Item(9034,1), 15),
+		JEWELLED_GOLDEN_STATUETTE(new Item(20661,1), 3),
 		COINS(new Item(995, 5000000), 1),
 		JEWELED_DIAMOND_STATUETTE(new Item(21570, 1), 1),
 		SCEPTRE(new Item(9050, 1), 1);
