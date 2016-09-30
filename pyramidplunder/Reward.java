@@ -103,13 +103,13 @@ public final class Reward
 		@Override
 		public Item getItem() {
 			// TODO Auto-generated method stub
-			return null;
+			return item;
 		}
 
 		@Override
 		public int getWeight() {
 			// TODO Auto-generated method stub
-			return 0;
+			return weight;
 		}
 		
 	}
