@@ -23,7 +23,7 @@ and plugin scripts, as well as a custom threading system which I created.
 I might upload the threading system, but for now you'll have to figure out how
 to make this portable. For reference, any calls to 
 `CoresManager.getServiceProvider().execute(() -> ...)` that you see are simply wrappers
-around your game core's `ScheduleExecutorService`. Likewise with `ServiceProvider::executeWithDelay`.
+around your game core's `ScheduledExecutorService`. Likewise with `ServiceProvider::executeWithDelay`.
 `FixedLengthRunnable` is my own personal version of a `TimerTask`, and `return false` in the
 body of the `repeat` method is comparable
 to `TimerTask::cancel`. I made `FixedLengthRunnable` because I no longer use `Timer` as it will
